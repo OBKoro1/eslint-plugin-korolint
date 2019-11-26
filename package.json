@@ -1,0 +1,43 @@
+{
+  "name": "eslint-plugin-koro-create",
+  "version": "1.0.0",
+  "description": "定制ESlint rule",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/OBKoro1/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OBKoro1/notification-Koro1"
+  },
+  "bugs": {
+    "url": "https://github.com/OBKoro1/notification-Koro1/issues",
+    "email": "obkoro1@foxmail.com"
+  },
+  "author": {
+    "name": "OBKoro1",
+    "email": "obkoro1@foxmail.com",
+    "url": "http://obkoro1.com/"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "ESLint 学习",
+    "ESLint 插件",
+    "ESLint 创建规则",
+    "ESLint 开发插件"
+  ],
+  "license": "MIT"
+}
