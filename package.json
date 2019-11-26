@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-koro-create",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "定制ESlint rule",
   "main": "lib/index.js",
   "scripts": {
@@ -19,10 +19,10 @@
   "homepage": "https://github.com/OBKoro1/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OBKoro1/notification-Koro1"
+    "url": "https://github.com/OBKoro1/eslint-plugin-koro-create"
   },
   "bugs": {
-    "url": "https://github.com/OBKoro1/notification-Koro1/issues",
+    "url": "https://github.com/OBKoro1/eslint-plugin-koro-create/issues",
     "email": "obkoro1@foxmail.com"
   },
   "author": {
