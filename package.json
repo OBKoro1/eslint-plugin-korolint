@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-koro-create",
-  "version": "1.0.1",
+  "name": "eslint-plugin-korolint",
+  "version": "1.0.0",
   "description": "定制ESlint rule",
   "main": "lib/index.js",
   "scripts": {
@@ -28,12 +28,15 @@
   "author": {
     "name": "OBKoro1",
     "email": "obkoro1@foxmail.com",
-    "url": "http://obkoro1.com/"
+    "url": "http://obkoro1.com/web_accumulate/about.html"
   },
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin",
+    "eslint-plugin-settimeout-no-number",
+    "eslint settimeout-no-number",
+    "eslint disabled number",
     "ESLint 学习",
     "ESLint 插件",
     "ESLint 创建规则",
