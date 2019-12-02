@@ -1,3 +1,11 @@
+/*
+ * @Author: OBKoro1
+ * @Description: 
+ * @Date: 2019-11-26 20:28:28
+ * @LastEditors: OBKoro1
+ * @LastEditTime: 2019-12-02 17:40:21
+ * @FilePath: /eslint-plugin-koro-create/tests/lib/rules/settimeout-no-number.js
+ */
 /**
  * @fileoverview setTimeout 第二个参数禁止是数字
  * @author OBKoro1

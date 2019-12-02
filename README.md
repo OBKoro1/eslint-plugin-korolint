@@ -1,6 +1,6 @@
-# eslint-plugin-settimeout-no-number
+# eslint-plugin-korolint
 
-settimeout-no-number
+本项目用于学习eslint `rule`开发。
 
 ## Installation
 

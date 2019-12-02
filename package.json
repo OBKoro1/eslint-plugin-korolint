@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-korolint",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "定制ESlint rule",
   "main": "lib/index.js",
   "scripts": {
