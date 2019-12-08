@@ -1,36 +1,59 @@
 # setTimeout 第二个参数禁止是数字 (settimeout-no-number)
 
-Please describe the origin of the rule here.
+setTimeout 的第二个参数，如果是数字的话，很容易就成为魔鬼数字，没有人知道为什么是这个数字, 以及这个数字有什么含义。
 
+### 判定条件
 
-## Rule Details
+`setTimeout`的第二个参数如果是数字就报错！
 
-This rule aims to...
-
-Examples of **incorrect** code for this rule:
-
-```js
-
-// fill me in
-
-```
-
-Examples of **correct** code for this rule:
+### 错误示例
 
 ```js
-
-// fill me in
-
+setTimeout(() => {
+  console.log(11);
+}, 1000);
 ```
 
-### Options
+```js
+setTimeout(function() {
+  console.log(11);
+}, 1000);
+```
 
-If there are any options, describe them here. Otherwise, delete this section.
+```js
+setTimeout(test, 1000);
+```
 
-## When Not To Use It
+### 正确示例
 
-Give a short description of when it would be appropriate to turn off this rule.
+```js
+setTimeout(() => {
+  console.log(11);
+}, someNumber);
+```
 
-## Further Reading
+```js
+setTimeout(function() {
+  console.log(11);
+}, someNumber);
+```
 
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+```js
+setTimeout(test, someNumber);
+```
+
+### 修复
+
+插件提供了自动修复功能，在检测出错误代码之后，会自动修复，如下：
+
+```js
+// 修复前
+setTimeout(() => {
+
+}, 1000)
+// 修复后 变量名故意写错,为了让用户去修改它
+const countNumber1 = 1000
+setTimeout(() => {
+
+}, countNumber2)
+```
